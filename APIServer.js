@@ -7,7 +7,7 @@ function start() {
 }
 start()
 
-//Fetch để lấy dữ liệu từ API và render ra giao diện
+// fetch để GET dữ liệu từ API và render ra giao diện
 function getCourses(callback) {
 	fetch(coursesApi)
 		.then(function(response) {
